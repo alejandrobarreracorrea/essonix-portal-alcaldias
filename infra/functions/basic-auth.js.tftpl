@@ -1,0 +1,13 @@
+function handler(event) {
+  var request = event.request;
+  var auth = request.headers.authorization;
+  var expected = "Basic ${basic_auth_b64}";
+  if (!auth || auth.value !== expected) {
+    return {
+      statusCode: 401,
+      statusDescription: "Unauthorized",
+      headers: { "www-authenticate": { value: "Basic realm=\"Plataforma Alcaldias\"" } }
+    };
+  }
+  return request;
+}
