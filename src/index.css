@@ -1,0 +1,191 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Lienzo y superficies */
+  --paper: #f3f0e8;
+  --surface: #fbf9f4;
+  --surface-2: #f6f3ec;
+  /* Tinta / texto */
+  --ink: #15241d;
+  --ink-soft: #5e6d63;
+  --line: #e4ded2;
+  /* Identidad — verde bosque */
+  --forest: #0e5c46;
+  --forest-700: #0c4d3a;
+  --forest-deep: #0a3a2c;
+  --forest-ink: #073025;
+  /* Acentos */
+  --gold: #c0892d;
+  --gold-soft: #e6c87c;
+  --clay: #b24a33;
+  /* Secundarios para gráficos */
+  --teal: #2a8c7a;
+  --sage: #6fa08c;
+  --sand: #d9b679;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Archivo', system-ui, sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: 'Fraunces', serif;
+    letter-spacing: -0.01em;
+    font-weight: 600;
+    /* Evitar ligaduras raras en títulos display (p. ej. "fi" → "Inﬁorme") */
+    font-feature-settings: 'liga' 0;
+    font-variant-ligatures: none;
+  }
+
+  /* Foco visible y coherente con la identidad */
+  :focus-visible {
+    outline: 2px solid var(--forest);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}
+
+/* Grano sutil de papel — overlay fijo sobre todo el lienzo */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+}
+
+/* Cifras tabulares */
+.num {
+  font-family: 'Spline Sans Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Scrollbars finos en el área de contenido */
+.scroll-fino {
+  scrollbar-width: thin;
+  scrollbar-color: var(--line) transparent;
+}
+.scroll-fino::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.scroll-fino::-webkit-scrollbar-thumb {
+  background: var(--line);
+  border-radius: 999px;
+  border: 3px solid var(--surface);
+}
+
+/* Sidebar — verde bosque profundo con gradiente vertical (elemento de marca) */
+.sidebar {
+  background: linear-gradient(180deg, var(--forest-deep) 0%, var(--forest-ink) 100%);
+}
+
+/* Revelado escalonado al cargar la página (CSS-only) */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reveal {
+  opacity: 0;
+  animation: rise 0.55s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    animation: none;
+  }
+}
+
+/* Utilidad: ocultar cromo (sidebar, topbar, botones) al imprimir */
+.no-print {
+  /* sin efecto en pantalla */
+}
+
+/* ------------------------------------------------------------------ */
+/* Impresión — documento limpio del Informe                            */
+/* ------------------------------------------------------------------ */
+@media print {
+  /* Ocultar todo el cromo no imprimible */
+  .no-print {
+    display: none !important;
+  }
+
+  /* Fondo blanco, sin grano de papel */
+  html,
+  body {
+    background: #fff !important;
+  }
+  body::before {
+    display: none !important;
+  }
+
+  /* Sin animaciones de entrada */
+  .reveal {
+    opacity: 1 !important;
+    animation: none !important;
+  }
+
+  /* El informe ocupa todo el ancho de la página */
+  main {
+    overflow: visible !important;
+  }
+  main > div {
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Conservar tipografía editorial y evitar cortes feos */
+  .informe-section,
+  .rounded-card,
+  table,
+  tr {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Las tablas no deben recortarse ni mostrar scroll al imprimir */
+  .scroll-fino {
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  /* Sombras planas para tinta limpia */
+  .shadow-card,
+  .shadow-sidebar,
+  .shadow-pop {
+    box-shadow: none !important;
+  }
+
+  @page {
+    margin: 1.4cm;
+  }
+}

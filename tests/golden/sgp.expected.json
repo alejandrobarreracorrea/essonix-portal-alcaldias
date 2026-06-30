@@ -1,0 +1,134 @@
+[
+  {
+    "fila": 16,
+    "presupuesto": null,
+    "recaudo": null,
+    "compromisos": null
+  },
+  {
+    "fila": 17,
+    "presupuesto": null,
+    "recaudo": null,
+    "compromisos": null
+  },
+  {
+    "fila": 18,
+    "presupuesto": 0,
+    "recaudo": null,
+    "compromisos": null
+  },
+  {
+    "fila": 19,
+    "presupuesto": 132574890,
+    "recaudo": 132574890,
+    "compromisos": 132574890
+  },
+  {
+    "fila": 20,
+    "presupuesto": 143780851,
+    "recaudo": 51994840,
+    "compromisos": 39481324
+  },
+  {
+    "fila": 21,
+    "presupuesto": null,
+    "recaudo": null,
+    "compromisos": null
+  },
+  {
+    "fila": 22,
+    "presupuesto": 3645998769,
+    "recaudo": 1071296949,
+    "compromisos": 1129027555.31
+  },
+  {
+    "fila": 23,
+    "presupuesto": 393545305,
+    "recaudo": 150618273,
+    "compromisos": 379864965
+  },
+  {
+    "fila": 24,
+    "presupuesto": 399398160,
+    "recaudo": 152847996,
+    "compromisos": 399398160
+  },
+  {
+    "fila": 25,
+    "presupuesto": 1709823852,
+    "recaudo": 503658481,
+    "compromisos": 514777512
+  },
+  {
+    "fila": 26,
+    "presupuesto": null,
+    "recaudo": null,
+    "compromisos": null
+  },
+  {
+    "fila": 27,
+    "presupuesto": 2742015215,
+    "recaudo": 1083338192,
+    "compromisos": 1440322544
+  },
+  {
+    "fila": 28,
+    "presupuesto": 125821099,
+    "recaudo": 49687131,
+    "compromisos": 78000000
+  },
+  {
+    "fila": 29,
+    "presupuesto": 94365824,
+    "recaudo": 37265348,
+    "compromisos": 73800000
+  },
+  {
+    "fila": 30,
+    "presupuesto": 3566405517,
+    "recaudo": 1409085979,
+    "compromisos": 1774921458.18
+  },
+  {
+    "fila": 31,
+    "presupuesto": null,
+    "recaudo": null,
+    "compromisos": null
+  },
+  {
+    "fila": 32,
+    "presupuesto": 85845898,
+    "recaudo": 33018120,
+    "compromisos": 56118611
+  },
+  {
+    "fila": 33,
+    "presupuesto": 0,
+    "recaudo": null,
+    "compromisos": null
+  },
+  {
+    "fila": 34,
+    "presupuesto": 0,
+    "recaudo": null,
+    "compromisos": null
+  },
+  {
+    "fila": 35,
+    "presupuesto": null,
+    "recaudo": null,
+    "compromisos": null
+  },
+  {
+    "fila": 36,
+    "presupuesto": null,
+    "recaudo": null,
+    "compromisos": null
+  },
+  {
+    "fila": 37,
+    "presupuesto": null,
+    "recaudo": null,
+    "compromisos": null
+  }
+]

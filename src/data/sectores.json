@@ -1,0 +1,70 @@
+[
+  {
+    "codigo": "04",
+    "nombre": "Información Estadística"
+  },
+  {
+    "codigo": "12",
+    "nombre": "Justicia y del Derecho"
+  },
+  {
+    "codigo": "17",
+    "nombre": "Agricultura y Desarrollo Rural"
+  },
+  {
+    "codigo": "19",
+    "nombre": "Salud y Protección Social"
+  },
+  {
+    "codigo": "21",
+    "nombre": "Minas y energía"
+  },
+  {
+    "codigo": "22",
+    "nombre": "Educación"
+  },
+  {
+    "codigo": "23",
+    "nombre": "Tecnologías de la información y las Comunicaciones"
+  },
+  {
+    "codigo": "24",
+    "nombre": "Transporte"
+  },
+  {
+    "codigo": "32",
+    "nombre": "Ambiente y Desarrollo Sostenible"
+  },
+  {
+    "codigo": "33",
+    "nombre": "Cultura"
+  },
+  {
+    "codigo": "35",
+    "nombre": "Comercio, Industria y Turismo"
+  },
+  {
+    "codigo": "36",
+    "nombre": "Trabajo"
+  },
+  {
+    "codigo": "39",
+    "nombre": "Ciencia, Tecnología e Innovación"
+  },
+  {
+    "codigo": "40",
+    "nombre": "Vivienda"
+  },
+  {
+    "codigo": "41",
+    "nombre": "Inclusión social"
+  },
+  {
+    "codigo": "43",
+    "nombre": "Deporte y Recreación"
+  },
+  {
+    "codigo": "45",
+    "nombre": "Gobierno Territorial"
+  }
+]

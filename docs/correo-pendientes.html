@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Plataforma Alcaldías — Insumos y definiciones pendientes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Archivo:wght@400;500;600;700&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --paper:#f3f0e8; --surface:#fbf9f4; --ink:#15241d; --ink-soft:#5e6d63;
+    --line:#e4ded2; --forest:#0e5c46; --forest-deep:#0a3a2c; --forest-ink:#073025;
+    --gold:#c0892d; --gold-soft:#e6c87c; --clay:#b24a33; --amber:#b7791f;
+  }
+  *{box-sizing:border-box}
+  html{ -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility }
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:'Archivo',system-ui,sans-serif; line-height:1.55;
+  }
+  h1,h2,h3{ font-family:'Fraunces',Georgia,serif; font-feature-settings:"liga" 0; letter-spacing:-.01em; margin:0 }
+  .num,.mono{ font-family:'Spline Sans Mono',monospace; font-variant-numeric:tabular-nums }
+  .sheet{ max-width:820px; margin:32px auto; background:var(--surface); border:1px solid var(--line);
+    box-shadow:0 18px 50px -28px rgba(10,61,46,.35); }
+  /* Membrete */
+  .membrete{ background:linear-gradient(135deg,var(--forest-deep),var(--forest-ink)); color:var(--paper);
+    padding:26px 40px; display:flex; align-items:center; gap:16px; }
+  .mark{ width:46px; height:46px; border-radius:12px; background:var(--gold); color:var(--forest-ink);
+    display:grid; place-items:center; font-family:'Fraunces',serif; font-weight:700; font-size:20px; }
+  .membrete .b1{ font-family:'Fraunces',serif; font-size:20px; font-weight:600; }
+  .membrete .b2{ font-size:12px; letter-spacing:.16em; text-transform:uppercase; color:#8fb3a6; margin-top:2px }
+  .goldrule{ height:3px; background:var(--gold) }
+  .body{ padding:32px 40px 40px }
+  .meta{ font-size:13px; color:var(--ink-soft); margin-bottom:22px }
+  .meta .mono{ color:var(--ink) }
+  .kicker{ font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:var(--gold); font-weight:600 }
+  h1.title{ font-size:30px; margin:4px 0 14px; }
+  h2.sec{ font-size:19px; margin:30px 0 6px; display:flex; align-items:baseline; gap:10px }
+  h2.sec .n{ font-family:'Spline Sans Mono',monospace; font-size:13px; color:var(--gold) }
+  .hr{ height:1px; background:var(--line); margin:6px 0 16px }
+  p{ margin:10px 0 }
+  .lead{ font-size:15px }
+  .item{ border:1px solid var(--line); border-left:3px solid var(--line); border-radius:12px;
+    padding:14px 16px; margin:12px 0; background:var(--paper) }
+  .item.r{ border-left-color:var(--clay) } .item.a{ border-left-color:var(--amber) } .item.v{ border-left-color:var(--forest) }
+  .item h3{ font-size:15px; display:flex; align-items:center; gap:8px }
+  .dot{ width:9px; height:9px; border-radius:50%; display:inline-block }
+  .dot.r{ background:var(--clay) } .dot.a{ background:var(--amber) } .dot.v{ background:var(--forest) }
+  .item .q{ font-size:13.5px; color:var(--ink); margin:6px 0 4px }
+  .item .src{ font-size:12.5px; color:var(--ink-soft) }
+  .item .src b{ color:var(--forest); font-weight:600 }
+  .tag{ font-size:10.5px; font-weight:600; letter-spacing:.04em; padding:2px 8px; border-radius:999px;
+    background:#e3f0ea; color:var(--forest); margin-left:auto; white-space:nowrap }
+  ul.done{ list-style:none; padding:0; margin:8px 0 }
+  ul.done li{ font-size:13.5px; padding:4px 0 4px 22px; position:relative; color:var(--ink) }
+  ul.done li::before{ content:"✓"; position:absolute; left:0; color:var(--forest); font-weight:700 }
+  table{ width:100%; border-collapse:collapse; margin:14px 0; font-size:13px }
+  th,td{ text-align:left; padding:7px 10px; border-bottom:1px solid var(--line) }
+  thead th{ background:var(--forest-deep); color:var(--paper); font-size:11px; letter-spacing:.06em; text-transform:uppercase; font-weight:600 }
+  td.est{ font-weight:600 }
+  .ok{ color:var(--forest) } .pend{ color:var(--amber) }
+  .footer{ margin-top:30px; padding-top:16px; border-top:1px solid var(--line); font-size:12.5px; color:var(--ink-soft) }
+  .sign{ margin-top:20px; font-size:14px }
+  .sign .who{ font-family:'Fraunces',serif; font-weight:600; color:var(--ink) }
+  @media print{
+    body{ background:#fff } .sheet{ box-shadow:none; border:none; margin:0; max-width:none }
+    .item{ break-inside:avoid } h2.sec{ break-after:avoid }
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="membrete">
+    <div class="mark">PA</div>
+    <div>
+      <div class="b1">Plataforma Alcaldías</div>
+      <div class="b2">Análisis Presupuestal CCPET</div>
+    </div>
+  </div>
+  <div class="goldrule"></div>
+
+  <div class="body">
+    <div class="meta">
+      Para: <span class="mono">Equipo de análisis presupuestal</span> &nbsp;·&nbsp;
+      De: <span class="mono">Essionix — Plataforma Alcaldías</span> &nbsp;·&nbsp;
+      Fecha: <span class="mono">30 de junio de 2026</span>
+    </div>
+
+    <div class="kicker">Asunto</div>
+    <h1 class="title">Insumos y definiciones pendientes para completar el análisis</h1>
+
+    <p class="lead">Buen día. La plataforma ya reproduce con <b>valores idénticos a su plantilla</b> (tolerancia cero,
+    verificado automáticamente con el municipio de Briceño) y genera un informe ejecutivo con gráficos. A continuación
+    detallamos lo que <b>ya quedó funcionando</b> y los pocos puntos en los que <b>necesitamos su apoyo</b> para
+    cerrar las secciones restantes.</p>
+
+    <!-- LO QUE YA QUEDÓ -->
+    <h2 class="sec"><span class="n">A</span> Lo que ya quedó funcionando</h2>
+    <div class="hr"></div>
+    <ul class="done">
+      <li>Análisis de Ingresos, Análisis de Gastos y Fuentes y Usos — idénticos a la plantilla.</li>
+      <li>Indicador <b>Ley 617</b> (Autofinanciación GF/ICLD) con semáforo de cumplimiento.</li>
+      <li>Seguimiento <b>SGP</b> — la ficha se arma con el reporte de SICODIS que nos compartieron.</li>
+      <li>Inversión por sectores y Traslados presupuestales (créditos/contracréditos).</li>
+      <li>Indicadores DNP <b>#4 Generación de recursos propios</b> y <b>#5 Magnitud de la inversión</b>.</li>
+      <li>Informe ejecutivo con narrativa automática, gráficos y opción de exportar a PDF.</li>
+    </ul>
+
+    <!-- NECESITAMOS DE USTEDES -->
+    <h2 class="sec"><span class="n">B</span> Lo que necesitamos de ustedes</h2>
+    <div class="hr"></div>
+
+    <div class="item r">
+      <h3><span class="dot r"></span> Límite de gasto Concejo y Personería (Ley 617, arts. 6 y 10) <span class="tag">Dato del municipio</span></h3>
+      <div class="q">Necesitamos el <b>número de sesiones del Concejo</b> realizadas a la fecha (la plantilla lo deja como
+      entrada manual) y confirmar la <b>categoría del municipio</b> (define el límite en SMMLV). El valor del SMMLV de la
+      vigencia lo cargamos nosotros.</div>
+      <div class="src">Fuente: dato del Municipio (no es un archivo CCPET).</div>
+    </div>
+
+    <div class="item r">
+      <h3><span class="dot r"></span> Indicadores 2, 3 y 6 — definición y datos <span class="tag">Definición + datos</span></h3>
+      <div class="q">La hoja “Indicadores” de la plantilla es ilustrativa (no calcula estos tres). Para construirlos
+      necesitamos que confirmen:
+      <b>#2 Respaldo del servicio de la deuda</b> → definición de “ingresos disponibles” y los rubros de servicio de la deuda;
+      <b>#3 Dependencia de transferencias y regalías</b> → datos de <b>Regalías (SGR)</b> si el municipio las maneja
+      (no aparecen en los insumos actuales);
+      <b>#6 Capacidad de ahorro</b> → definición de “ahorro corriente”.</div>
+      <div class="src">Fuente: definición de ustedes (correo) + si aplica, el <b>reporte de ejecución del SGR (Gesproy/SPGR)</b>.</div>
+    </div>
+
+    <div class="item a">
+      <h3><span class="dot a"></span> Modelos de informe <span class="tag">Archivos PDF/Word</span></h3>
+      <div class="q">Los modelos que nos compartieron no corresponden al mismo corte de los datos. Para dejar el informe
+      idéntico a lo que ustedes presentan, necesitamos el <b>informe del mismo corte</b> y el <b>informe del año pasado</b>
+      que mencionaron.</div>
+      <div class="src">Fuente: los <b>PDF/Word</b> de esos dos informes.</div>
+    </div>
+
+    <div class="item a">
+      <h3><span class="dot a"></span> Confirmaciones rápidas <span class="tag">Sí/No</span></h3>
+      <div class="q">Dos detalles para dejar idéntico a su criterio:
+      la observación de SGP “Reducir −X” reproduce literalmente la fórmula de la plantilla (muestra el número con signo) —
+      ¿lo dejamos así o en valor absoluto?;
+      y la base de los indicadores #4 y #5 (usamos <b>recaudo</b> para #4 y <b>compromisos</b> para #5) — ¿la confirman?</div>
+      <div class="src">Fuente: confirmación de ustedes (correo).</div>
+    </div>
+
+    <div class="item v">
+      <h3><span class="dot v"></span> Para usar la plataforma con otros municipios <span class="tag">Opcional</span></h3>
+      <div class="q">Cuando quieran ampliarla a más municipios, por cada uno necesitaremos: nombre, código DANE,
+      categoría y vigencia/corte. También confirmar si el catálogo de fuentes CCPET05 es estándar nacional estable o
+      cambia por corte.</div>
+      <div class="src">Fuente: dato por municipio.</div>
+    </div>
+
+    <!-- ESTADO -->
+    <h2 class="sec"><span class="n">C</span> Estado de las áreas</h2>
+    <div class="hr"></div>
+    <table>
+      <thead><tr><th>Área</th><th>Estado</th></tr></thead>
+      <tbody>
+        <tr><td>Análisis de Ingresos / Gastos / Fuentes y Usos</td><td class="est ok">Listo · idéntico a la plantilla</td></tr>
+        <tr><td>Ley 617 (Indicador 1)</td><td class="est ok">Listo · falta límite Concejo/Personería</td></tr>
+        <tr><td>Seguimiento SGP</td><td class="est ok">Listo · desde SICODIS</td></tr>
+        <tr><td>Inversión por sectores · Traslados</td><td class="est ok">Listo</td></tr>
+        <tr><td>Indicadores #4 y #5</td><td class="est ok">Listo · confirmar base</td></tr>
+        <tr><td>Indicadores #2, #3, #6</td><td class="est pend">Pendiente · definición de ustedes</td></tr>
+        <tr><td>PAC (plan mensual de caja)</td><td class="est pend">Pendiente · captura manual / fuente mensual</td></tr>
+      </tbody>
+    </table>
+
+    <p>Quedamos atentos a estos puntos para cerrar las secciones restantes. Cualquier duda, con gusto la resolvemos.</p>
+
+    <div class="sign">
+      Cordialmente,<br />
+      <span class="who">Equipo Essionix · Plataforma Alcaldías</span>
+    </div>
+
+    <div class="footer">
+      Elaborado a partir de los reportes CCPET de ejecución de ingresos y gastos y del reporte SICODIS de SGP.
+      Los valores del análisis se validan de forma automática contra la plantilla (tolerancia cero).
+    </div>
+  </div>
+</div>
+</body>
+</html>

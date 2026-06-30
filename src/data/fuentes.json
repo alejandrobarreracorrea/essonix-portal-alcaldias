@@ -1,0 +1,938 @@
+[
+  {
+    "codigo": "0.0",
+    "descripcionFuente": "NO APLICA"
+  },
+  {
+    "codigo": "1.0",
+    "descripcionFuente": "1.1.0.0.00 - DISPONIBILIDAD INICIAL"
+  },
+  {
+    "codigo": "2.0",
+    "descripcionFuente": "1.2.1.0.00 - INGRESOS CORRIENTES DE LIBRE DESTINACION"
+  },
+  {
+    "codigo": "3.0",
+    "descripcionFuente": "1.2.2.0.00 - INGRESOS CORRIENTES DE DESTINACION ESPECIFICA POR ACTO ADMINISTRATIVO"
+  },
+  {
+    "codigo": "4.0",
+    "descripcionFuente": "1.2.3.1.01 - SOBRETASA - PARTICIPACION AMBIENTAL - CORPORACIONES AUTONOMAS REGIONALES"
+  },
+  {
+    "codigo": "5.0",
+    "descripcionFuente": "1.2.3.1.02 - SOBRETASA AMBIENTAL AREAS METROPOLITANAS"
+  },
+  {
+    "codigo": "6.0",
+    "descripcionFuente": "1.2.3.1.03 - IMPUESTO SOBRE VEHICULOS AUTOMOTORES CON DESTINACION ESPECIFICA LEGAL"
+  },
+  {
+    "codigo": "7.0",
+    "descripcionFuente": "1.2.3.1.04 - IMPUESTO A GANADORES DE SORTEOS ORDINARIOS Y EXTRAORDINARIOS"
+  },
+  {
+    "codigo": "8.0",
+    "descripcionFuente": "1.2.3.1.05 - IMPUESTO - SOBRETASA POR EL ALUMBRADO PUBLICO"
+  },
+  {
+    "codigo": "9.0",
+    "descripcionFuente": "1.2.3.1.06 - IMPUESTO DE REGISTRO"
+  },
+  {
+    "codigo": "10.0",
+    "descripcionFuente": "1.2.3.1.07 - IMPUESTO DE LOTERIAS FORANEAS"
+  },
+  {
+    "codigo": "11.0",
+    "descripcionFuente": "1.2.3.1.08 - IMPUESTO AL CONSUMO DE LICORES, VINOS, APERITIVOS Y SIMILARES"
+  },
+  {
+    "codigo": "12.0",
+    "descripcionFuente": "1.2.3.1.09 - IMPUESTO AL CONSUMO DE CERVEZAS, SIFONES, REFAJOS Y MEZCLAS"
+  },
+  {
+    "codigo": "13.0",
+    "descripcionFuente": "1.2.3.1.10 - IMPUESTO AL CONSUMO DE CIGARRILLOS Y TABACO"
+  },
+  {
+    "codigo": "14.0",
+    "descripcionFuente": "1.2.3.1.11 - SOBRETASA FONDO DEPARTAMENTAL DE BOMBEROS"
+  },
+  {
+    "codigo": "15.0",
+    "descripcionFuente": "1.2.3.1.12 - IMPUESTO DE ESPECTACULOS PUBLICOS NACIONAL CON DESTINO AL DEPORTE"
+  },
+  {
+    "codigo": "16.0",
+    "descripcionFuente": "1.2.3.1.13 - IMPUESTO SOBRE APUESTAS MUTUAS"
+  },
+  {
+    "codigo": "17.0",
+    "descripcionFuente": "1.2.3.1.14 - SOBRETASA BOMBERIL"
+  },
+  {
+    "codigo": "18.0",
+    "descripcionFuente": "1.2.3.1.15 - SOBRETASA FONDO DE SEGURIDAD"
+  },
+  {
+    "codigo": "19.0",
+    "descripcionFuente": "1.2.3.1.16 - IMPUESTO DE TRANSPORTE POR OLEODUCTOS Y GASODUCTOS"
+  },
+  {
+    "codigo": "20.0",
+    "descripcionFuente": "1.2.3.1.17 - SOBRETASA DE SOLIDARIDAD SERVICIOS PUBLICOS ACUEDUCTO, ASEO Y ALCANTARILLADO"
+  },
+  {
+    "codigo": "21.0",
+    "descripcionFuente": "1.2.3.1.18 - TASA PRODEPORTE Y RECREACION"
+  },
+  {
+    "codigo": "22.0",
+    "descripcionFuente": "1.2.3.1.19 - ESTAMPILLAS"
+  },
+  {
+    "codigo": "23.0",
+    "descripcionFuente": "1.2.3.2.01 - CONTRIBUCIONES SOCIALES - SALUD"
+  },
+  {
+    "codigo": "24.0",
+    "descripcionFuente": "1.2.3.2.02 - CONTRIBUCIONES SOCIALES - PENSION"
+  },
+  {
+    "codigo": "25.0",
+    "descripcionFuente": "1.2.3.2.03 - CONTRIBUCIONES SOCIALES - RIESGOS LABORALES"
+  },
+  {
+    "codigo": "26.0",
+    "descripcionFuente": "1.2.3.2.04 - CONTRIBUCIONES SOCIALES - SUBSIDIO FAMILIAR"
+  },
+  {
+    "codigo": "27.0",
+    "descripcionFuente": "1.2.3.2.05 - CONTRIBUCIONES AGROPECUARIAS Y PESQUERAS"
+  },
+  {
+    "codigo": "28.0",
+    "descripcionFuente": "1.2.3.2.06 - CONTRIBUCION SOBRE CONTRATOS DE OBRA PUBLICA"
+  },
+  {
+    "codigo": "29.0",
+    "descripcionFuente": "1.2.3.2.07 - CONTRIBUCION DEL SECTOR ELECTRICO"
+  },
+  {
+    "codigo": "30.0",
+    "descripcionFuente": "1.2.3.2.08 - COPAGOS Y CUOTAS MODERADORAS"
+  },
+  {
+    "codigo": "31.0",
+    "descripcionFuente": "1.2.3.2.09 - OTRAS CONTRIBUCIONES CON DESTINACION ESPECIFICA LEGAL"
+  },
+  {
+    "codigo": "32.0",
+    "descripcionFuente": "1.2.3.2.10 - TASAS RETRIBUTIVAS"
+  },
+  {
+    "codigo": "33.0",
+    "descripcionFuente": "1.2.3.2.11 - TASAS COMPENSATORIAS"
+  },
+  {
+    "codigo": "34.0",
+    "descripcionFuente": "1.2.3.2.12 - EVALUACION DE LICENCIAS Y TRAMITES AMBIENTALES"
+  },
+  {
+    "codigo": "35.0",
+    "descripcionFuente": "1.2.3.2.13 - SEGUIMIENTO A LICENCIAS Y TRAMITES AMBIENTALES"
+  },
+  {
+    "codigo": "36.0",
+    "descripcionFuente": "1.2.3.2.14 - DERECHO DE INGRESO AREAS PROTEGIDAS"
+  },
+  {
+    "codigo": "37.0",
+    "descripcionFuente": "1.2.3.2.15 - TASA POR EL USO DEL AGUA"
+  },
+  {
+    "codigo": "38.0",
+    "descripcionFuente": "1.2.3.2.16 - TASA POR APROVECHAMIENTO FORESTAL"
+  },
+  {
+    "codigo": "39.0",
+    "descripcionFuente": "1.2.3.2.17 - TASA COMPENSATORIA POR CAZA DE FAUNA SILVESTRE"
+  },
+  {
+    "codigo": "40.0",
+    "descripcionFuente": "1.2.3.2.18 - SOBRETASA AMBIENTAL - PEAJES"
+  },
+  {
+    "codigo": "41.0",
+    "descripcionFuente": "1.2.3.2.19 - TASA COMPENSATORIA POR LA UTILIZACION PERMANENTE DE LA RESERVA FORESTAL PROTECTORA BOSQUE ORIENTAL DE BOGOTA"
+  },
+  {
+    "codigo": "42.0",
+    "descripcionFuente": "1.2.3.2.20 - SALVOCONDUCTO UNICO NACIONAL"
+  },
+  {
+    "codigo": "43.0",
+    "descripcionFuente": "1.2.3.2.21 - DERECHOS DE TRANSITO"
+  },
+  {
+    "codigo": "44.0",
+    "descripcionFuente": "1.2.3.2.22 - OTRAS TASAS Y DERECHOS ADMINISTRATIVOS CON DESTINACION ESPECIFICA LEGAL"
+  },
+  {
+    "codigo": "45.0",
+    "descripcionFuente": "1.2.3.2.23 - MULTAS AMBIENTALES"
+  },
+  {
+    "codigo": "46.0",
+    "descripcionFuente": "1.2.3.2.24 - MULTAS CODIGO NACIONAL DE POLICIA Y CONVIVENCIA"
+  },
+  {
+    "codigo": "47.0",
+    "descripcionFuente": "1.2.3.2.25 - OTRAS MULTAS, SANCIONES E INTERESES DE MORA CON DESTINACION ESPECIFICA LEGAL"
+  },
+  {
+    "codigo": "48.0",
+    "descripcionFuente": "1.2.3.2.26 - DERECHOS ECONOMICOS POR USO DE RECURSOS NATURALES  CON DESTINACION ESPECIFICA LEGAL"
+  },
+  {
+    "codigo": "49.0",
+    "descripcionFuente": "1.2.3.2.27 - VENTA DE BIENES Y SERVICIOS CON DESTINACION ESPECIFICA LEGAL"
+  },
+  {
+    "codigo": "50.0",
+    "descripcionFuente": "1.2.3.2.28 - DERECHOS POR LA EXPLOTACION JUEGOS DE SUERTE Y AZAR"
+  },
+  {
+    "codigo": "51.0",
+    "descripcionFuente": "1.2.3.2.29 - PARTICIPACION Y DERECHOS DE EXPLOTACION DEL EJERCICIO DEL MONOPOLIO DE LICORES DESTILADOS Y ALCOHOLES POTABLES"
+  },
+  {
+    "codigo": "52.0",
+    "descripcionFuente": "1.2.3.3.01 - PARTICIPACIONES DISTINTAS DEL SGP CON DESTINACION ESPECIFICA LEGAL"
+  },
+  {
+    "codigo": "53.0",
+    "descripcionFuente": "1.2.3.3.02 - COMPENSACIONES DE INGRESOS TRIBUTARIOS Y NO TRIBUTARIOS CON DESTINACION ESPECIFICA LEGAL"
+  },
+  {
+    "codigo": "54.0",
+    "descripcionFuente": "1.2.3.3.03 - APORTES NACION - ALIMENTACION ESCOLAR"
+  },
+  {
+    "codigo": "55.0",
+    "descripcionFuente": "1.2.3.3.04 - OTRAS TRANSFERENCIAS CORRIENTES DE OTRAS ENTIDADES CON DESTINACION ESPECIFICA LEGAL DEL GOBIERNO GENERAL"
+  },
+  {
+    "codigo": "56.0",
+    "descripcionFuente": "1.2.3.3.05 - SUBVENCIONES CON DESTINACION ESPECIFICA LEGAL"
+  },
+  {
+    "codigo": "57.0",
+    "descripcionFuente": "1.2.3.3.06 - DIFERENTES DE SUBVENCIONES CON DESTINACION ESPECIFICA LEGAL"
+  },
+  {
+    "codigo": "58.0",
+    "descripcionFuente": "1.2.3.3.07 - SISTEMA GENERAL DE SEGURIDAD SOCIAL EN SALUD - OTROS RECURSOS ADMINISTRADOS POR ADRES"
+  },
+  {
+    "codigo": "59.0",
+    "descripcionFuente": "1.2.3.3.08 - SISTEMA GENERAL DE SEGURIDAD SOCIAL EN SALUD - RECURSOS DE ENTIDADES TERRITORIALES"
+  },
+  {
+    "codigo": "60.0",
+    "descripcionFuente": "1.2.3.3.09 - SISTEMA GENERAL DE SEGURIDAD SOCIAL EN SALUD - RECURSOS DE CAJAS DE COMPENSACION"
+  },
+  {
+    "codigo": "61.0",
+    "descripcionFuente": "1.2.3.3.10 - SISTEMA GENERAL DE SEGURIDAD SOCIAL EN SALUD - FONDOS ESPECIALES DEL MINISTERIO DE SALUD Y PROTECCION SOCIAL"
+  },
+  {
+    "codigo": "62.0",
+    "descripcionFuente": "1.2.3.3.11 - SISTEMA GENERAL DE SEGURIDAD SOCIAL EN SALUD - RECURSOS DE LA COMPENSACION DEL RC"
+  },
+  {
+    "codigo": "63.0",
+    "descripcionFuente": "1.2.3.3.12 - SISTEMA GENERAL DE SEGURIDAD SOCIAL EN SALUD - RECURSOS DE LA UPC RS"
+  },
+  {
+    "codigo": "64.0",
+    "descripcionFuente": "1.2.3.3.13 - SISTEMA GENERAL DE SEGURIDAD SOCIAL EN SALUD - SERVICIOS Y TECNOLOGIAS NO FINANCIADOS CON UPC"
+  },
+  {
+    "codigo": "65.0",
+    "descripcionFuente": "1.2.3.3.14 - SISTEMA GENERAL DE PENSIONES - CUOTAS PARTES PENSIONALES"
+  },
+  {
+    "codigo": "66.0",
+    "descripcionFuente": "1.2.3.3.15 - SISTEMA GENERAL DE PENSIONES - OTROS"
+  },
+  {
+    "codigo": "67.0",
+    "descripcionFuente": "1.2.3.3.16 - SISTEMA GENERAL DE RIESGOS LABORALES"
+  },
+  {
+    "codigo": "68.0",
+    "descripcionFuente": "1.2.3.3.17 - SENTENCIAS Y CONCILIACIONES"
+  },
+  {
+    "codigo": "69.0",
+    "descripcionFuente": "1.2.3.3.18 - INDEMNIZACIONES RELACIONADAS CON SEGUROS NO DE VIDA"
+  },
+  {
+    "codigo": "70.0",
+    "descripcionFuente": "1.2.3.4.01 - ICLD DEPARTAMENTOS PARA FONPET"
+  },
+  {
+    "codigo": "71.0",
+    "descripcionFuente": "1.2.3.4.02 - ICLD LEY 99 - DESTINO AMBIENTAL"
+  },
+  {
+    "codigo": "72.0",
+    "descripcionFuente": "1.2.3.4.03 - SAN ANDRES CON DESTINO A PROVIDENCIA"
+  },
+  {
+    "codigo": "73.0",
+    "descripcionFuente": "1.2.4.1.01 - SGP-EDUCACION-PRESTACION DE SERVICIOS"
+  },
+  {
+    "codigo": "74.0",
+    "descripcionFuente": "1.2.4.1.02 - SGP-EDUCACION-CANCELACION DE PRESTACIONES SOCIALES DEL MAGISTERIO"
+  },
+  {
+    "codigo": "75.0",
+    "descripcionFuente": "1.2.4.1.03 - SGP-EDUCACION-CALIDAD  POR MATRICULA OFICIAL"
+  },
+  {
+    "codigo": "76.0",
+    "descripcionFuente": "1.2.4.1.04 - SGP-EDUCACION-CALIDAD  POR GRATUIDAD"
+  },
+  {
+    "codigo": "77.0",
+    "descripcionFuente": "1.2.4.2.01 - SGP-SALUD-REGIMEN SUBSIDIADO"
+  },
+  {
+    "codigo": "78.0",
+    "descripcionFuente": "1.2.4.2.02 - SGP-SALUD-SALUD PUBLICA"
+  },
+  {
+    "codigo": "79.0",
+    "descripcionFuente": "1.2.4.2.03 - SGP-SALUD-PRESTACION DEL SERVICIO DE SALUD"
+  },
+  {
+    "codigo": "80.0",
+    "descripcionFuente": "1.2.4.2.04 - SGP-SALUD-SUBSIDIO A LA OFERTA"
+  },
+  {
+    "codigo": "81.0",
+    "descripcionFuente": "1.2.4.3.01 - SGP-PROPOSITO GENERAL-DEPORTE Y RECREACION"
+  },
+  {
+    "codigo": "82.0",
+    "descripcionFuente": "1.2.4.3.02 - SGP-PROPOSITO GENERAL-CULTURA"
+  },
+  {
+    "codigo": "83.0",
+    "descripcionFuente": "1.2.4.3.03 - SGP-PROPOSITO GENERAL-PROPOSITO GENERAL LIBRE INVERSION"
+  },
+  {
+    "codigo": "84.0",
+    "descripcionFuente": "1.2.4.3.04 - SGP-PROPOSITO GENERAL-LIBRE DESTINACION MUNICIPIOS CATEGORIAS 4, 5 Y 6"
+  },
+  {
+    "codigo": "85.0",
+    "descripcionFuente": "1.2.4.4.01 - SGP-ASIGNACION ESPECIAL-PROGRAMAS DE ALIMENTACION ESCOLAR"
+  },
+  {
+    "codigo": "86.0",
+    "descripcionFuente": "1.2.4.4.02 - SGP-ASIGNACION ESPECIAL-MUNICIPIOS DE LA RIBERA DEL RIO MAGDALENA"
+  },
+  {
+    "codigo": "87.0",
+    "descripcionFuente": "1.2.4.4.03 - SGP-ASIGNACION-ATENCION INTEGRAL DE LA PRIMERA INFANCIA"
+  },
+  {
+    "codigo": "88.0",
+    "descripcionFuente": "1.2.4.6.00 - SGP-AGUA POTABLE Y SANEAMIENTO BASICO"
+  },
+  {
+    "codigo": "89.0",
+    "descripcionFuente": "1.2.5.1.00 - RECURSOS PROPIOS DE ESTABLECIMIENTOS PUBLICOS O UNIDADES ADMINISTRATIVAS ESPECIALES"
+  },
+  {
+    "codigo": "90.0",
+    "descripcionFuente": "1.3.1.1.01 - DISPOSICION DE ACTIVOS"
+  },
+  {
+    "codigo": "91.0",
+    "descripcionFuente": "1.3.1.1.02 - EXCEDENTES FINANCIEROS"
+  },
+  {
+    "codigo": "92.0",
+    "descripcionFuente": "1.3.1.1.03 - DIVIDENDOS Y UTILIDADES POR OTRAS INVERSIONES DE CAPITAL"
+  },
+  {
+    "codigo": "93.0",
+    "descripcionFuente": "1.3.1.1.04 - RECURSOS DE CREDITO EXTERNO"
+  },
+  {
+    "codigo": "94.0",
+    "descripcionFuente": "1.3.1.1.05 - RECURSOS DE CREDITO INTERNO"
+  },
+  {
+    "codigo": "95.0",
+    "descripcionFuente": "1.3.1.1.06 - DONACIONES"
+  },
+  {
+    "codigo": "96.0",
+    "descripcionFuente": "1.3.1.1.07 - TRANSFERENCIAS DE CAPITAL DE OTRAS ENTIDADES DEL GOBIERNO GENERAL"
+  },
+  {
+    "codigo": "97.0",
+    "descripcionFuente": "1.3.1.1.08 - OTRAS TRANSFERENCIAS DE CAPITAL"
+  },
+  {
+    "codigo": "98.0",
+    "descripcionFuente": "1.3.1.1.09 - RECUPERACION DE CARTERA - PRESTAMOS"
+  },
+  {
+    "codigo": "99.0",
+    "descripcionFuente": "1.3.1.1.10 - RETIROS FONPET"
+  },
+  {
+    "codigo": "100.0",
+    "descripcionFuente": "1.3.1.1.11 - REINTEGROS Y OTROS RECURSOS NO APROPIADOS"
+  },
+  {
+    "codigo": "101.0",
+    "descripcionFuente": "1.3.1.1.12 - RECURSOS DE TERCEROS"
+  },
+  {
+    "codigo": "102.0",
+    "descripcionFuente": "1.3.1.1.13 - CAPITALIZACIONES"
+  },
+  {
+    "codigo": "103.0",
+    "descripcionFuente": "1.3.2.1.01 - R.F. SOBRETASA - PARTICIPACION AMBIENTAL - CORPORACIONES AUTONOMAS REGIONALES"
+  },
+  {
+    "codigo": "104.0",
+    "descripcionFuente": "1.3.2.1.02 - R.F. CONTRIBUCIONES - SALUD"
+  },
+  {
+    "codigo": "105.0",
+    "descripcionFuente": "1.3.2.1.03 - R.F. CONTRIBUCIONES - PENSION"
+  },
+  {
+    "codigo": "106.0",
+    "descripcionFuente": "1.3.2.1.04 - R.F. CONTRIBUCIONES - RIESGOS LABORALES"
+  },
+  {
+    "codigo": "107.0",
+    "descripcionFuente": "1.3.2.1.05 - R.F. CONTRIBUCIONES - SUBSIDIO FAMILIAR"
+  },
+  {
+    "codigo": "108.0",
+    "descripcionFuente": "1.3.2.1.06 - R.F. CONTRIBUCIONES - AGROPECUARIAS Y PESQUERAS"
+  },
+  {
+    "codigo": "109.0",
+    "descripcionFuente": "1.3.2.1.07 - R.F. CONTRIBUCION DEL SECTOR ELECTRICO"
+  },
+  {
+    "codigo": "110.0",
+    "descripcionFuente": "1.3.2.1.08 - R.F. DE COPAGOS Y CUOTAS MODERADORAS"
+  },
+  {
+    "codigo": "111.0",
+    "descripcionFuente": "1.3.2.1.09 - R.F. DE OTRAS CONTRIBUCIONES"
+  },
+  {
+    "codigo": "112.0",
+    "descripcionFuente": "1.3.2.1.10 - R.F. DE TASAS RETRIBUTIVAS"
+  },
+  {
+    "codigo": "113.0",
+    "descripcionFuente": "1.3.2.1.11 - R.F. DE TASAS COMPENSATORIAS"
+  },
+  {
+    "codigo": "114.0",
+    "descripcionFuente": "1.3.2.1.12 - R.F.EVALUACION DE LICENCIAS Y TRAMITES AMBIENTALES"
+  },
+  {
+    "codigo": "115.0",
+    "descripcionFuente": "1.3.2.1.13 - R.F.SEGUIMIENTO A LICENCIAS Y TRAMITES AMBIENTALES"
+  },
+  {
+    "codigo": "116.0",
+    "descripcionFuente": "1.3.2.1.14 - R.F.DERECHO DE INGRESO AREAS PROTEGIDAS"
+  },
+  {
+    "codigo": "117.0",
+    "descripcionFuente": "1.3.2.1.15 - R.F.TASA POR EL USO DEL AGUA"
+  },
+  {
+    "codigo": "118.0",
+    "descripcionFuente": "1.3.2.1.16 - R.F.TASA POR APROVECHAMIENTO FORESTAL"
+  },
+  {
+    "codigo": "119.0",
+    "descripcionFuente": "1.3.2.1.17 - R.F.TASA COMPENSATORIA POR CAZA DE FAUNA SILVESTRE"
+  },
+  {
+    "codigo": "120.0",
+    "descripcionFuente": "1.3.2.1.18 - R.F.SOBRETASA AMBIENTAL - PEAJES"
+  },
+  {
+    "codigo": "121.0",
+    "descripcionFuente": "1.3.2.1.19 - R.F.TASA COMPENSATORIA POR LA UTILIZACION PERMANENTE DE LA RESERVA FORESTAL PROTECTORA BOSQUE ORIENTAL DE BOGOTA"
+  },
+  {
+    "codigo": "122.0",
+    "descripcionFuente": "1.3.2.1.20 - R.F.SALVOCONDUCTO UNICO NACIONAL"
+  },
+  {
+    "codigo": "123.0",
+    "descripcionFuente": "1.3.2.1.21 - R.F. DERECHOS DE TRANSITO"
+  },
+  {
+    "codigo": "124.0",
+    "descripcionFuente": "1.3.2.1.22 - R.F. DE OTRAS TASAS Y DERECHOS ADMINISTRATIVOS"
+  },
+  {
+    "codigo": "125.0",
+    "descripcionFuente": "1.3.2.1.23 - R.F.MULTAS AMBIENTALES"
+  },
+  {
+    "codigo": "126.0",
+    "descripcionFuente": "1.3.2.2.01 - R.F. SGP - EDUCACION-PRESTACION DE SERVICIO EDUCATIVO"
+  },
+  {
+    "codigo": "127.0",
+    "descripcionFuente": "1.3.2.2.02 - R.F. SGP - EDUCACION-CANCELACION DE PRESTACIONES SOCIALES DEL MAGISTERIO"
+  },
+  {
+    "codigo": "128.0",
+    "descripcionFuente": "1.3.2.2.03 - R.F. SGP - EDUCACION-CALIDAD  POR MATRICULA OFICIAL"
+  },
+  {
+    "codigo": "129.0",
+    "descripcionFuente": "1.3.2.2.04 - R.F. SGP - EDUCACION-CALIDAD  POR GRATUIDAD"
+  },
+  {
+    "codigo": "130.0",
+    "descripcionFuente": "1.3.2.2.05 - R.F. SGP - SALUD-REGIMEN SUBSIDIADO"
+  },
+  {
+    "codigo": "131.0",
+    "descripcionFuente": "1.3.2.2.06 - R.F. SGP - SALUD-SALUD PUBLICA"
+  },
+  {
+    "codigo": "132.0",
+    "descripcionFuente": "1.3.2.2.07 - R.F. SGP - SALUD-PRESTACION DEL SERVICIO DE SALUD"
+  },
+  {
+    "codigo": "133.0",
+    "descripcionFuente": "1.3.2.2.08 - R.F. SGP - PROPOSITO GENERAL"
+  },
+  {
+    "codigo": "134.0",
+    "descripcionFuente": "1.3.2.2.09 - R.F. SGP - ASIGNACION ESPECIAL-PROGRAMAS DE ALIMENTACION ESCOLAR"
+  },
+  {
+    "codigo": "135.0",
+    "descripcionFuente": "1.3.2.2.10 - R.F. SGP - ASIGNACION ESPECIAL-MUNICIPIOS DE LA RIBERA DEL RIO MAGDALENA"
+  },
+  {
+    "codigo": "136.0",
+    "descripcionFuente": "1.3.2.2.11 - R.F. SGP - ASIGNACION-ATENCION INTEGRAL DE LA PRIMERA INFANCIA"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.2.2.12 - R.F. SGP - ASIGNACIÓN ESPECIAL - RESGUARDOS INDIGENAS"
+  },
+  {
+    "codigo": "137.0",
+    "descripcionFuente": "1.3.2.2.13 - R.F. SGP - AGUA POTABLE Y SANEAMIENTO BASICO"
+  },
+  {
+    "codigo": "138.0",
+    "descripcionFuente": "1.3.2.3.01 - R.F. DISTINTOS AL SGP"
+  },
+  {
+    "codigo": "139.0",
+    "descripcionFuente": "1.3.2.3.02 - R.F. DE SISTEMA GENERAL DE SEGURIDAD SOCIAL EN SALUD - OTROS RECURSOS ADMINISTRADOS POR ADRES"
+  },
+  {
+    "codigo": "140.0",
+    "descripcionFuente": "1.3.2.3.03 - R.F. DE SISTEMA GENERAL DE SEGURIDAD SOCIAL EN SALUD - RECURSOS DE ENTIDADES TERRITORIALES"
+  },
+  {
+    "codigo": "141.0",
+    "descripcionFuente": "1.3.2.3.04 - R.F. DE SISTEMA GENERAL DE SEGURIDAD SOCIAL EN SALUD - RECURSOS DE CAJAS DE COMPENSACION"
+  },
+  {
+    "codigo": "142.0",
+    "descripcionFuente": "1.3.2.3.05 - R.F. DE SISTEMA GENERAL DE SEGURIDAD SOCIAL EN SALUD - FONDOS ESPECIALES DEL MINISTERIO DE SALUD Y PROTECCION SOCIAL"
+  },
+  {
+    "codigo": "143.0",
+    "descripcionFuente": "1.3.2.3.06 - R.F. DE SISTEMA GENERAL DE SEGURIDAD SOCIAL EN SALUD - RECURSOS DE LA COMPENSACION DEL RC"
+  },
+  {
+    "codigo": "144.0",
+    "descripcionFuente": "1.3.2.3.07 - R.F. DE SISTEMA GENERAL DE SEGURIDAD SOCIAL EN SALUD - RECURSOS DE LA UPC RS"
+  },
+  {
+    "codigo": "145.0",
+    "descripcionFuente": "1.3.2.3.08 - R.F. DE SISTEMA GENERAL DE SEGURIDAD SOCIAL EN SALUD - SERVICIOS Y TECNOLOGIAS NO FINANCIADOS CON UPC"
+  },
+  {
+    "codigo": "146.0",
+    "descripcionFuente": "1.3.2.3.09 - R.F. DE SISTEMA GENERAL DE PENSIONES"
+  },
+  {
+    "codigo": "147.0",
+    "descripcionFuente": "1.3.2.3.10 - R.F. DE SISTEMA GENERAL DE RIESGOS LABORALES"
+  },
+  {
+    "codigo": "148.0",
+    "descripcionFuente": "1.3.2.3.11 - OTROS RENDIMIENTOS FINANCIEROS"
+  },
+  {
+    "codigo": "149.0",
+    "descripcionFuente": "1.3.3.1.00 - RECURSOS DEL BALANCE DE LIBRE DESTINACION"
+  },
+  {
+    "codigo": "150.0",
+    "descripcionFuente": "1.3.3.10.00 - R.B. SGP-AGUA POTABLE Y SANEAMIENTO BASICO"
+  },
+  {
+    "codigo": "151.0",
+    "descripcionFuente": "1.3.3.11.01 - R.B. DISPOSICION DE ACTIVOS"
+  },
+  {
+    "codigo": "152.0",
+    "descripcionFuente": "1.3.3.11.02 - R.B. EXCEDENTES FINANCIEROS"
+  },
+  {
+    "codigo": "153.0",
+    "descripcionFuente": "1.3.3.11.03 - R.B. DIVIDENDOS Y UTILIDADES POR OTRAS INVERSIONES DE CAPITAL"
+  },
+  {
+    "codigo": "154.0",
+    "descripcionFuente": "1.3.3.11.04 - R.B. RECURSOS DE CREDITO EXTERNO"
+  },
+  {
+    "codigo": "155.0",
+    "descripcionFuente": "1.3.3.11.05 - R.B. RECURSOS DE CREDITO INTERNO"
+  },
+  {
+    "codigo": "156.0",
+    "descripcionFuente": "1.3.3.11.06 - R.B. DONACIONES"
+  },
+  {
+    "codigo": "157.0",
+    "descripcionFuente": "1.3.3.11.07 - R.B. TRANSFERENCIAS DE CAPITAL DE OTRAS ENTIDADES DEL GOBIERNO GENERAL"
+  },
+  {
+    "codigo": "158.0",
+    "descripcionFuente": "1.3.3.11.08 - R.B. OTRAS TRANSFERENCIAS DE CAPITAL"
+  },
+  {
+    "codigo": "159.0",
+    "descripcionFuente": "1.3.3.11.09 - R.B. RECUPERACION DE CARTERA - PRESTAMOS"
+  },
+  {
+    "codigo": "160.0",
+    "descripcionFuente": "1.3.3.11.10 - R.B. RETIROS FONPET"
+  },
+  {
+    "codigo": "161.0",
+    "descripcionFuente": "1.3.3.11.11 - R.B. REINTEGROS Y OTROS RECURSOS NO APROPIADOS"
+  },
+  {
+    "codigo": "162.0",
+    "descripcionFuente": "1.3.3.2.00 - RECURSOS DEL BALANCE DE DESTINACION ESPECIFICA POR ACTO ADMINISTRATIVO"
+  },
+  {
+    "codigo": "163.0",
+    "descripcionFuente": "1.3.3.3.01 - R.B. SOBRETASA - PARTICIPACION AMBIENTAL - CORPORACIONES AUTONOMAS REGIONALES"
+  },
+  {
+    "codigo": "164.0",
+    "descripcionFuente": "1.3.3.3.02 - R.B. SOBRETASA AMBIENTAL AREAS METROPOLITANAS"
+  },
+  {
+    "codigo": "165.0",
+    "descripcionFuente": "1.3.3.3.03 - R.B. IMPUESTO SOBRE VEHICULOS AUTOMOTORES"
+  },
+  {
+    "codigo": "166.0",
+    "descripcionFuente": "1.3.3.3.04 - R.B. IMPUESTO A GANADORES DE SORTEOS ORDINARIOS Y EXTRAORDINARIOS"
+  },
+  {
+    "codigo": "167.0",
+    "descripcionFuente": "1.3.3.3.05 - R.B. SOBRETASA POR EL ALUMBRADO PUBLICO"
+  },
+  {
+    "codigo": "168.0",
+    "descripcionFuente": "1.3.3.3.06 - R.B. IMPUESTO DE REGISTRO"
+  },
+  {
+    "codigo": "169.0",
+    "descripcionFuente": "1.3.3.3.07 - R.B. IMPUESTO DE LOTERIAS FORANEAS"
+  },
+  {
+    "codigo": "170.0",
+    "descripcionFuente": "1.3.3.3.08 - R.B. IMPUESTO AL CONSUMO DE LICORES, VINOS, APERITIVOS Y SIMILARES"
+  },
+  {
+    "codigo": "171.0",
+    "descripcionFuente": "1.3.3.3.09 - R.B. IMPUESTO AL CONSUMO DE CERVEZAS, SIFONES, REFAJOS Y MEZCLAS"
+  },
+  {
+    "codigo": "172.0",
+    "descripcionFuente": "1.3.3.3.10 - R.B. IMPUESTO AL CONSUMO DE CIGARRILLOS Y TABACO"
+  },
+  {
+    "codigo": "173.0",
+    "descripcionFuente": "1.3.3.3.11 - R.B. SOBRETASA FONDO DEPARTAMENTAL DE BOMBEROS"
+  },
+  {
+    "codigo": "174.0",
+    "descripcionFuente": "1.3.3.3.12 - R.B. IMPUESTO DE ESPECTACULOS PUBLICOS NACIONAL CON DESTINO AL DEPORTE"
+  },
+  {
+    "codigo": "175.0",
+    "descripcionFuente": "1.3.3.3.13 - R.B. IMPUESTO SOBRE APUESTAS MUTUAS"
+  },
+  {
+    "codigo": "176.0",
+    "descripcionFuente": "1.3.3.3.14 - R.B. IMPUESTO DE ALUMBRADO PUBLICO"
+  },
+  {
+    "codigo": "177.0",
+    "descripcionFuente": "1.3.3.3.15 - R.B. SOBRETASA BOMBERIL"
+  },
+  {
+    "codigo": "178.0",
+    "descripcionFuente": "1.3.3.3.16 - R.B. SOBRETASA FONDO DE SEGURIDAD"
+  },
+  {
+    "codigo": "179.0",
+    "descripcionFuente": "1.3.3.3.17 - R.B. IMPUESTO DE TRANSPORTE POR OLEODUCTOS Y GASODUCTOS"
+  },
+  {
+    "codigo": "180.0",
+    "descripcionFuente": "1.3.3.3.18 - R.B. SOBRETASA DE SOLIDARIDAD SERVICIOS PUBLICOS ACUEDUCTO, ASEO Y ALCANTARILLADO"
+  },
+  {
+    "codigo": "181.0",
+    "descripcionFuente": "1.3.3.3.19 - R.B. TASA PRO DEPORTE"
+  },
+  {
+    "codigo": "182.0",
+    "descripcionFuente": "1.3.3.3.20 - R.B. ESTAMPILLAS"
+  },
+  {
+    "codigo": "183.0",
+    "descripcionFuente": "1.3.3.4.01 - R.B. CONTRIBUCION SOBRE CONTRATOS DE OBRA PUBLICA"
+  },
+  {
+    "codigo": "184.0",
+    "descripcionFuente": "1.3.3.4.02 - R.B.CONTRIBUCION DEL SECTOR ELECTRICO"
+  },
+  {
+    "codigo": "185.0",
+    "descripcionFuente": "1.3.3.4.03 - R.B. OTRAS CONTRIBUCIONES"
+  },
+  {
+    "codigo": "186.0",
+    "descripcionFuente": "1.3.3.4.04 - R.B. TASAS RETRIBUTIVAS"
+  },
+  {
+    "codigo": "187.0",
+    "descripcionFuente": "1.3.3.4.05 - R.B. TASAS COMPENSATORIAS"
+  },
+  {
+    "codigo": "188.0",
+    "descripcionFuente": "1.3.3.4.06 - R.B.EVALUACION DE LICENCIAS Y TRAMITES AMBIENTALES"
+  },
+  {
+    "codigo": "189.0",
+    "descripcionFuente": "1.3.3.4.07 - R.B.SEGUIMIENTO A LICENCIAS Y TRAMITES AMBIENTALES"
+  },
+  {
+    "codigo": "190.0",
+    "descripcionFuente": "1.3.3.4.08 - R.B.DERECHO DE INGRESO AREAS PROTEGIDAS"
+  },
+  {
+    "codigo": "191.1",
+    "descripcionFuente": "1.3.3.4.09 - R.B.TASA POR EL USO DEL AGUA"
+  },
+  {
+    "codigo": "192.2",
+    "descripcionFuente": "1.3.3.4.10 - R.B.TASA POR APROVECHAMIENTO FORESTAL"
+  },
+  {
+    "codigo": "193.0",
+    "descripcionFuente": "1.3.3.4.11 - R.B.TASA COMPENSATORIA POR CAZA DE FAUNA SILVESTRE"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.4.12 - R.B.SOBRETASA AMBIENTAL - PEAJES"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.4.13 - R.B.TASA COMPENSATORIA POR LA UTILIZACION PERMANENTE DE LA RESERVA FORESTAL PROTECTORA BOSQUE ORIENTAL DE BOGOTA"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.4.14 - R.B.SALVOCONDUCTO UNICO NACIONAL"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.4.15 - R.B.DERECHOS DE TRANSITO"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.4.16 - R.B. OTRAS TASAS Y DERECHOS ADMINISTRATIVOS"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.4.17 - R.B. MULTAS CODIGO NACIONAL DE POLICIA Y CONVIVENCIA"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.4.18 - R.B.MULTAS AMBIENTALES"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.4.19 - R.B. OTRAS MULTAS, SANCIONES E INTERESES DE MORA"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.4.20 - R.B. DERECHOS ECONOMICOS POR USO DE RECURSOS NATURALES"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.4.21 - R.B. VENTA DE BIENES Y SERVICIOS"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.4.22 - R.B. DERECHOS POR LA EXPLOTACION JUEGOS DE SUERTE Y AZAR"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.4.23 - R.B. PARTICIPACION Y DERECHOS DE EXPLOTACION DEL EJERCICIO DEL MONOPOLIO DE LICORES DESTILADOS Y ALCOHOLES POTABLES"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.5.01 - R.B. PARTICIPACIONES DISTINTAS DEL SGP"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.5.02 - R.B. COMPENSACIONES DE INGRESOS TRIBUTARIOS Y NO TRIBUTARIOS"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.5.03 - R.B. APORTES NACION - ALIMENTACION ESCOLAR"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.5.04 - R.B. OTRAS TRANSFERENCIAS CORRIENTES DE OTRAS ENTIDADES DEL GOBIERNO GENERAL"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.5.05 - R.B. SUBVENCIONES"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.5.06 - R.B. DIFERENTES DE SUBVENCIONES"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.5.07 - R.B. RECURSOS DEL SISTEMA DE SEGURIDAD SOCIAL INTEGRAL - SALUD"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.5.08 - R.B. RECURSOS DEL SISTEMA DE SEGURIDAD SOCIAL INTEGRAL - PENSIONES"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.5.09 - R.B. RECURSOS DEL SISTEMA DE SEGURIDAD SOCIAL INTEGRAL - RIESGOS LABORALES"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.5.10 - R.B. SENTENCIAS Y CONCILIACIONES"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.5.11 - R.B. INDEMNIZACIONES RELACIONADAS CON SEGUROS NO DE VIDA"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.6.01 - R.B. SGP-EDUCACION-PRESTACIÓN DE SERVICIO EDUCATIVO"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.6.02 - R.B. SGP-EDUCACION-CANCELACION DE PRESTACIONES SOCIALES DEL MAGISTERIO"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.6.03 - R.B. SGP-EDUCACION-CALIDAD  POR MATRICULA OFICIAL"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.6.04 - R.B. SGP-EDUCACION-CALIDAD  POR GRATUIDAD"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.7.01 - R.B. SGP-SALUD-REGIMEN SUBSIDIADO"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.7.02 - R.B. SGP-SALUD-SALUD PUBLICA"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.7.03 - R.B. SGP-SALUD-PRESTACION DEL SERVICIO DE SALUD"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.7.04 - R.B. SGP-SALUD-SUBSIDIO A LA OFERTA"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.8.01 - R.B. SGP-PROPOSITO GENERAL-DEPORTE Y RECREACION"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.8.02 - R.B. SGP-PROPOSITO GENERAL-CULTURA"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.8.03 - R.B. SGP-PROPOSITO GENERAL-PROPOSITO GENERAL LIBRE INVERSION"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.8.04 - R.B. SGP-PROPOSITO GENERAL-LIBRE DESTINACION MUNICIPIOS CATEGORIAS 4, 5 Y 6"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.9.01 - R.B. SGP-ASIGNACION ESPECIAL-PROGRAMAS DE ALIMENTACION ESCOLAR"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.9.02 - R.B. SGP-ASIGNACION ESPECIAL-MUNICIPIOS DE LA RIBERA DEL RIO MAGDALENA"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.9.03 - R.B. SGP-ASIGNACION-ATENCION INTEGRAL DE LA PRIMERA INFANCIA"
+  },
+  {
+    "codigo": null,
+    "descripcionFuente": "1.3.3.9.02 - R.B. SGP-ASIGNACION ESPECIAL-MUNICIPIOS DE LA RIBERA DEL RIO MAGDALENA"
+  }
+]
