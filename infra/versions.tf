@@ -3,10 +3,10 @@ terraform {
   required_providers {
     aws = { source = "hashicorp/aws", version = "~> 5.0" }
   }
-  # Estado local para el primer apply. Para migrar al backend S3 de Essionix,
-  # añadir aquí un bloque backend "s3" {...} y `terraform init -migrate-state`.
+  # Backend remoto S3 de Essionix. bucket/key/region se inyectan desde el
+  # workflow con -backend-config (ver .github/workflows/deploy.yml).
+  backend "s3" {}
 }
 provider "aws" {
-  region  = "us-east-1"
-  profile = var.aws_profile
+  region = "us-east-1"
 }
